@@ -4,7 +4,7 @@ class students():
     gender = 1
 
     def _money_(self):
-        if money >= 10000 :
+        if self >= 10000 :
             print('有钱')
         else:
             print('穷逼')
