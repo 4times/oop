@@ -12,7 +12,7 @@ class students():
             return '穷逼'
     def get_IQ(self):
         return '九九乘法表'
-
+#有return则print无效
 liuzong = students(40,'刘总','男',100,1)
 print(students.__dict__)
 print(liuzong)
